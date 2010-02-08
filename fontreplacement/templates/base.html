@@ -1,0 +1,12 @@
+{%load fontreplacement_tags%}<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>Accessible Text</title>
+  </head>
+  <body style="background-color:#B9DDF9">
+    <h1>{% filter fontreplacement:"font=journal.ttf,size=70,colour=#666666" %}Hello world!{% endfilter %}</h1>
+    <h2>{% filter fontreplacement:"colour=#FF00FF" %}Hello world!{% endfilter %}</h2>
+    <h2>{% filter fontreplacement:"colour=#FEAF1C" %}Hola mundo!{% endfilter %}</h2>
+    <h2>{% filter fontreplacement %}Hello world!{% endfilter %}</h2>
+  </body>
+</html>

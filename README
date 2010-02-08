@@ -1,0 +1,9 @@
+Image font replacement
+
+Required settings
+
+REPLACEMENTFONT_ROOT = # Absolute path to the font directory 
+REPLACEMENTFONT_URL = # URL for the font replacement images
+REPLACEMENTFONT_FACE = 'my_font.ttf'
+REPLACEMENTFONT_SIZE = 50
+REPLACEMENTFONT_COLOUR = '#333333'
